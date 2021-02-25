@@ -33,18 +33,18 @@ jobs:
            #bash CnUnicom.sh
     #例子到此为止
  
-        - name: Run 号码1
-          env:
-           haoma: ${{ secrets.HAOMA }}
-           mm: ${{ secrets.MM }}
-           appid: ${{ secrets.APPID }}
-          run: |
-           bash CnUnicom.sh
+        #- name: Run 号码1
+          #env:
+           #haoma: ${{ secrets.HAOMA }}
+           #mm: ${{ secrets.MM }}
+           #appid: ${{ secrets.APPID }}
+          #run: |
+           #bash CnUnicom.sh
            
         - name: Run 号码2
           env:
            haoma: ${{ secrets.HAOMA2 }}
-           mm: ${{ secrets.MM2 }}
-           appid: ${{ secrets.APPID2 }}
+           mm ： $ {{ secrets.MM2 }}
+           appid ： $ {{ secrets.APPID2 }}
           run: |
            bash CnUnicom.sh
